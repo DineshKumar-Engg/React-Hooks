@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+}
+.search{
+    width: 100%;
+    height: max-content;
+    font-size: 20px;
+}
+.input{
+    width:60%;
+    height:50px;
+    margin: 20px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;    
+}
+.input>input{
+    margin:0 10px 0px 10px;
+    padding: 7px;
+}
+.table{
+    width: 100%;
+    height: max-content;
+    font-size: 20px;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+.table>table{
+    width: 100%;
+}
+.para{
+    width: 100%;
+    height: max-content;
+    font-size: 20px;
+}
