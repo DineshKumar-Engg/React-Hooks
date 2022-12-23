@@ -1,9 +1,15 @@
 import React from 'react'
-import Main from './OnProps/Main'
+import MainProps from './OnProps/Main'
+import MainContext from './OnContext/Main'
+import BasicProps from './BasicProps'
+import BasicsContext from './BasicContext'
 const App = () => {
   return (
     <div>
-       <Main/>
+       <MainProps/>
+       <MainContext/>
+       <BasicProps />
+       <BasicsContext/>
     </div>
   )
 }

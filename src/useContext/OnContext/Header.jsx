@@ -1,7 +1,11 @@
 import React from 'react'
+import { useContext } from 'react'
+import { userContext } from './Main'
 
-const Header = (props) => {
-    const {user}=props
+const Header = () => {
+
+
+    const {user}=useContext(userContext)
     const {userName,title}=user
   return (
     <div

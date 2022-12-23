@@ -1,0 +1,4 @@
+body{
+    height: max-content;
+    flex-direction: column;
+}

@@ -1,7 +1,9 @@
-import React from 'react'
+import React,  { useContext }from 'react'
+import { userContext } from './Main'
 
-const UserInfo = ({user,setUser}) => {
+const UserInfo = () => {
 
+    const {user,setUser}=useContext(userContext)
     const {message,title,userName}=user
 
   return (

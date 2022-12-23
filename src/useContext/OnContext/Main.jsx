@@ -2,6 +2,10 @@ import React from 'react'
 import { useState } from 'react'
 import Layout from './Layout'
 import '../App.css'
+import { createContext } from 'react'
+
+export const userContext =createContext();
+
 const Main = () => {
 
     const [user,setUser]=useState({
@@ -10,9 +14,9 @@ const Main = () => {
         message:'Welcome to learning new concept'
     })
   return (
-    <div>
-          <Layout user={user} setUser={setUser} />
-    </div>
+   <userContext.Provider value={{user,setUser}}>
+    <Layout/>
+   </userContext.Provider>
   )
 }
 

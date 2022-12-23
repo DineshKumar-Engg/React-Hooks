@@ -1,0 +1,13 @@
+body{
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+}
+.memo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: max-content;
+    font-size: 20px;
+}
