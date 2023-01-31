@@ -7,7 +7,7 @@ const UserInfo = ({user,setUser}) => {
   return (
     <div>
         <div style={{margin:'10px'}}>
-        {message}.{title}
+        {/* {message}.{title} */}
         </div>
         <br/>
         <br/>

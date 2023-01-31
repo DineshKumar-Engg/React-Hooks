@@ -9,6 +9,17 @@ const Basics1 = () => {
 
 const [showComponent,setShowComponent]=useState(false)
 
+ // useEffect(() => {       ///--------------->>>>>>>>> componentwillunmount
+  //    run side-effects
+  
+  //   return () => {
+  //     run cleanups
+  //   }
+  // }, [])
+
+
+
+
 const Details=()=>{
     useEffect(()=>{
 
@@ -18,7 +29,10 @@ const Details=()=>{
             console.log("component unMounted");
         };
     },[])
-    return(<div>User Details component</div>)
+
+    return(
+    <div>User Details component</div>
+    )
 }
 
 

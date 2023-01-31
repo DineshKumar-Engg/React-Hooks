@@ -1,5 +1,6 @@
 import React from 'react'
 import { memo } from "react"
+
 const Button = ({title,eventhandler}) => {
 
     console.log(`button rendering for ${title}`);

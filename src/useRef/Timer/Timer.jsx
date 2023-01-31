@@ -20,6 +20,7 @@ const Timer = () => {
     const handleStop=()=>{
         clearInterval(timeRef.current)
         timeRef.current=0;
+
     }
 
     useEffect(()=>{

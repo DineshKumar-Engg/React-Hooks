@@ -13,13 +13,13 @@ const Basics = () => {
 
 
   // componentDidMount---> without any dependecies values inside,any changes in count,input..useEffect not render
-                          // it render only once a time
+                          // it render only once a time when global render
   useEffect(()=>{
       console.log("render1");
 
   },[]) 
 
-// if not provide any dependencies,then it render everytime 
+// if not provide any dependencies,then it render everytime any global changes 
   useEffect(()=>{
     console.log("render 2");
 
@@ -31,6 +31,18 @@ const Basics = () => {
   useEffect(()=>{
     console.log("render 3");
   },[count])
+
+  // useEffect(() => {       ///--------------->>>>>>>>> componentwillunmount
+  //    run side-effects
+  
+  //   return () => {
+  //     run cleanups
+  //   }
+  // }, [])
+
+
+
+
 
 return (
     <div className='main'>

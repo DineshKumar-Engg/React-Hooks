@@ -23,7 +23,7 @@ const Search = () => {
 
     const listitem = filterArray.map((item)=>(
         <>
-        <tr>
+        <tr key={item.key}>
             <td style={{border:'1px solid grey',padding:'8px'}}>
                 {item.type}
             </td>
@@ -38,7 +38,7 @@ const Search = () => {
     useEffect(()=>{
         setFilterArray(()=>{
             const newArray =array
-            .filter((item)=>item.type.includes(inputType))
+            .filter((item)=>item.type.toLowerCase().includes(inputType)) //-->>>includes 0r match
             .filter((item)=>item.value.includes(inputValue))
             return newArray
         })

@@ -75,6 +75,7 @@ const deposit = () => {
         type:"DEPOSIT",
         payload:parseInt(state.deposit)
     })
+    state.deposit=0
 }
 
 

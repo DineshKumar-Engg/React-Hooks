@@ -4,6 +4,7 @@ import Fetch from './FetchApi/fetch'
 import Input from './Input/Input'
 import Search from './Search/Search'
 import ParaApi from './ParaApi/ParaApi'
+import ParaTest from './ParaApi/ParaTest'
 const UseEffectApp = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const UseEffectApp = () => {
         <Input/>
         <Search/> */}
         <ParaApi/>
+        <ParaTest/>
     </div>
   )
 }

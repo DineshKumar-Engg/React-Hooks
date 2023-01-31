@@ -3,13 +3,17 @@ import MainProps from './OnProps/Main'
 import MainContext from './OnContext/Main'
 import BasicProps from './BasicProps'
 import BasicsContext from './BasicContext'
+import Main from './NewContext/Main'
+
+
 const App = () => {
   return (
     <div>
-       <MainProps/>
+       {/* <MainProps/>
        <MainContext/>
        <BasicProps />
-       <BasicsContext/>
+       <BasicsContext/> */}
+       <Main/>
     </div>
   )
 }

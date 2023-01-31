@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
+
 function ParagraphText(props){
     const [paraText,setParaText]=useState([])
     console.log(props.paraList);

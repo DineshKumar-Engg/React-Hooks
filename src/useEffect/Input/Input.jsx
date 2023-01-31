@@ -25,7 +25,7 @@ const [isValid,isNotvalid]=useState(false)
         <button type='button' 
         style={isValid?{backgroundColor:'white',padding:'10px'}:{backgroundColor:'royalblue',padding:'10px'}}
         >
-            {isValid ?"valid":"Not Valid"}</button>
+            {isValid ? "valid":"Not Valid"}</button>
             <hr style={{width:'100%',textAlign:'left',margin:'40px 0 10px 0'}}></hr>
 
     </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import UserInfo from './UserInfo'
+
 const Layout = (props) => {
   return (
     <div>

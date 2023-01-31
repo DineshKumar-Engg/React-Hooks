@@ -1,5 +1,6 @@
 import React from 'react'
 import { memo } from "react"
+
 const Info = ({title,value}) => {
 
     console.log(`info rendering for ${title}`);

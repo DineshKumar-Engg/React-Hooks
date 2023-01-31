@@ -5,15 +5,19 @@ import Video from './video/video'
 import Timer from './Timer/Timer'
 import Counter from './counter/Counter'
 import Color from './ExColor/Color'
+import Basics1 from './basics/Basics1'
+import Counter1 from './counter/Counter1'
 const App = () => {
   return (
     <div>
-     <Basics/>
+     {/* <Basics/>
     <Input/>
     <Video/>
     <Timer/>
     <Counter/>
-    <Color/>
+    <Color/> */}
+    <Basics1/>
+    <Counter1/>
         </div>
   )
 }

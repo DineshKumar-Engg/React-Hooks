@@ -24,7 +24,6 @@ const Color = () => {
         <p ref={colorRef}>WElcome to UseRef Concept</p>
         <button onClick={ColorChange}>Click Me To Color Change</button>
         <hr style={{width:'100%',textAlign:'left',margin:'40px 0 10px 0'}}></hr>
-
     </div>
   )
 }
