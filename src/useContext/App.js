@@ -1,6 +1,6 @@
 import React from 'react'
 import MainProps from './OnProps/Main'
-import MainContext from './OnContext/Main'
+import MainContext from './CountContext/MainContext'
 import BasicProps from './BasicProps'
 import BasicsContext from './BasicContext'
 import Main from './NewContext/Main'
@@ -13,7 +13,8 @@ const App = () => {
        <MainContext/>
        <BasicProps />
        <BasicsContext/> */}
-       <Main/>
+       {/* <Main/> */}
+       <MainContext/>
     </div>
   )
 }

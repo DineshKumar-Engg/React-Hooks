@@ -7,7 +7,6 @@ const Button = ({title,eventhandler}) => {
   return (
         <div style={{backgroundColor:'tomato'}}>
             <button onClick={eventhandler}>{title}</button>
-
         </div>
   )
 }

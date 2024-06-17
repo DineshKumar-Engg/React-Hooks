@@ -6,6 +6,11 @@ import UseRef from './useRef/App'
 import UseContext from './useContext/App'
 // import UseMemo from './useMemo/UseMemo';
   import UseCallback from './useCallback/App';
+import App from './UseLAyoutEffect/App';
+import UseDeferedValue from './UseDefered/UseDeferedValue';
+import Debug from './UseDebugValue/Debug';
+import { Provider } from 'react-redux';
+import { store } from './Redux/Store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +20,13 @@ root.render(
     // <UseRef/> 
     // <UseContext/>
   // </React.StrictMode>
-      <UseContext/>
+      // <UseContext/>
     //<UseMemo/>
     // <UseCallback/>
+    // <App/>
+    // <UseDeferedValue/>
+    <Provider store={store}>
+<Debug/>
+    </Provider>
+    
 );

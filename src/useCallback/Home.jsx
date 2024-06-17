@@ -26,7 +26,6 @@ const Home = () => {
         <Button title='increament 1' eventhandler={increment1}/>
         <Info title='counter2' value={count2}/>
         <Button title='increament 2' eventhandler={increment2}/>
-
     </div>
   )
 }

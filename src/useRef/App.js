@@ -10,12 +10,12 @@ import Counter1 from './counter/Counter1'
 const App = () => {
   return (
     <div>
-     {/* <Basics/>
+     <Basics/>
     <Input/>
     <Video/>
     <Timer/>
     <Counter/>
-    <Color/> */}
+    <Color/>
     <Basics1/>
     <Counter1/>
         </div>

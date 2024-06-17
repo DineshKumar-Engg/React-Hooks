@@ -1,6 +1,7 @@
 import React from 'react'
 import { useRef } from 'react'
 import '../App.css'
+import Basics1 from './Basics1'
 const Basics = () => {
     const divref = useRef(null)
     const spanRef =useRef(null)
@@ -26,7 +27,7 @@ const Basics = () => {
         <span  ref={spanRef} onClick={handleSpan}>Click to update Dom Element</span>
         </div>
         <hr style={{width:'100%',textAlign:'left',margin:'40px 0 10px 0'}}></hr>
-
+    <Basics1/>
     </div>
   )
 }

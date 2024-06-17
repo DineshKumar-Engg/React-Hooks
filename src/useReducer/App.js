@@ -4,13 +4,17 @@ import Reducer from "./Bank/Reducer"
 import Form from "./Form/form";
 import Count from "./counter/count";
 import Bank from "./Bank/Bank";
+import BankMain from "./TestBank/BankMain";
+
+
  const UseReducer = () => {
   return (
     <div>
       {/* <Reducer/>
       <Count/>
       <Form/> */}
-      <Bank/>
+      {/* <Bank/> */}
+      <BankMain/>
     </div>
   )
 }

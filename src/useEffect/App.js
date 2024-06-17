@@ -8,12 +8,12 @@ import ParaTest from './ParaApi/ParaTest'
 const UseEffectApp = () => {
   return (
     <div>
-        {/* <Basics/>
-        <Fetch/>
+        {/* <Basics/> */}
+        {/* <Fetch/>
         <Input/>
         <Search/> */}
-        <ParaApi/>
-        <ParaTest/>
+        {/* <ParaApi/> */}
+        {/* <ParaTest/> */}
     </div>
   )
 }

@@ -82,9 +82,9 @@ const dispatchDeposit=()=>{
         </div>
         <div>
             <input type={'number'} value={state.deposit} onChange={(e)=>handleDeposit(e)}/>
-            <button onClick={dispatchDeposit}>Deposit</button>
+                <button onClick={dispatchDeposit}>Deposit</button>
             <input type={'number'} value={state.withdraw} onChange={(e)=>handleWithdraw(e)}/>
-            <button onClick={dispatchWithdraw}>Withdraw</button>
+                <button onClick={dispatchWithdraw}>Withdraw</button>
         </div>
     </div>
   )
